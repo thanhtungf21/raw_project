@@ -1,0 +1,15 @@
+/* src/layouts/LandingLayout.css */
+.landing-layout {
+    /* Add specific styles if needed, e.g., background */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Example background */
+    /* background: linear-gradient(to bottom, #e0f7fa, #b2ebf2); */
+}
+
+.landing-layout main {
+    flex-grow: 1;
+    /* Make main content take available space */
+    padding: 20px;
+}

@@ -1,0 +1,25 @@
+/* src/layouts/DefaultLayout.css */
+.default-layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.layout-body {
+    display: flex;
+    flex-grow: 1;
+    /* Takes remaining height after navbar */
+    height: calc(100vh - 60px);
+    /* Full viewport height minus navbar height */
+    overflow: hidden;
+    /* Prevent scrolling at this level */
+}
+
+.main-content {
+    flex-grow: 1;
+    /* Takes remaining width */
+    padding: 20px;
+    overflow-y: auto;
+    /* Allow scrolling only for the main content */
+    background-color: #ffffff;
+}

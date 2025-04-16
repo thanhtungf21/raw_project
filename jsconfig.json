@@ -1,0 +1,13 @@
+// jsconfig.json
+{
+  "compilerOptions": {
+    "baseUrl": ".", // Sets the base directory for module resolution (project root)
+    "paths": {
+      "@/*": ["src/*"] // Maps imports starting with "@/" to the "src/" directory
+    },
+    // Optional: Specify JSX settings if not automatically inferred
+    "jsx": "react-jsx"
+  },
+  // Optional but recommended: Exclude folders VS Code shouldn't scan deeply
+  "exclude": ["node_modules", "dist", "build"]
+}
